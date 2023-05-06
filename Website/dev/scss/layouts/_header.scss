@@ -1,0 +1,72 @@
+/*--------------------------------------
+	Header
+--------------------------------------*/
+
+// Notes...
+
+#header {
+
+	background: $white;
+
+	.container {}
+
+}
+
+		.navbar {}
+
+			.navbar-toggler {}
+
+				.navbar-toggler-icon {}
+
+			.navbar-brand {
+
+				img {}
+
+			}
+
+			#navbarNav {}
+
+				.navbar-nav {}
+
+					.navbar-tel {
+
+						padding: 10px 0 0 0;
+						font-size: 0.75rem;
+						font-weight: 600;
+
+					}
+
+					.nav-item {
+
+						button {
+
+							box-shadow: none;
+
+							&:hover {
+
+								// color: pink;
+								// background: blue;
+								// border: 2px solid red;
+								border-color: $default-color;
+
+							}
+
+						}
+
+						a {
+
+							color: $default-color !important;
+							background: none;
+							border-color: $default-color;
+
+							&:hover {
+
+								color: $white !important;
+								background: $default-color;
+								border-color: $default-color;
+
+							}
+
+						}
+
+					}

@@ -1,0 +1,52 @@
+/*--------------------------------------
+	Footer
+--------------------------------------*/
+
+// Notes...
+
+.workful-footer {
+
+	.container {}
+
+		.row {}
+
+			.col-12 {}
+
+				.copyright {
+
+					color: $white;
+
+				}
+
+					span {
+
+						color: $white;
+
+						&:after {
+
+							content: "|";
+							margin: 0 10px 0 12px;
+
+						}
+
+						&:last-of-type {
+
+							&:after {
+
+								content: none;
+
+							}
+
+						}
+
+					}
+
+						a {
+
+							color: $white;
+
+							&:hover {}
+
+						}
+
+}
